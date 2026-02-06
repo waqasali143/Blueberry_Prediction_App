@@ -38,9 +38,9 @@ if Submit:
 
     # st.title("The Predicted Yield From RandomForest is " + str(int(rf.predict(query)[0])))
 
-    st.title("The Predicted Yield From XGBoost is " + str(int(xg.predict(query)[0]),"kg/ha"))
+    st.title("The Predicted Yield From XGBoost is " + str(int(xg.predict(query)[0])) + " kg/ha")
 
-    st.title("The Predicted Yield From LightGBM is " + str(int(lgbm.predict(query)[0]),"kg/ha"))
+    st.title("The Predicted Yield From LightGBM is " + str(int(lgbm.predict(query)[0])) + " kg/ha")
 
 
 # =====================Play tennis======================
