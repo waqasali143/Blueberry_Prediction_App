@@ -3,9 +3,9 @@ import numpy as np
 import pickle
 
 # Import Model
-# rf = pickle.load(open("D:/PIAIC COURSE/Miss Aqsa/app blueberry/w_Rfm_model.pkl", 'rb'))
-xg = pickle.load(open("D:/PIAIC COURSE/Miss Aqsa/app blueberry/w_Xgbm_model.pkl", 'rb'))
-lgbm = pickle.load(open("D:/PIAIC COURSE/Miss Aqsa/app blueberry/w_Lgbm_model.pkl", 'rb'))
+# rf = pickle.load(open("models/w_Rfm_model.pkl", 'rb'))
+xg = pickle.load(open("models/w_Xgbm_model.pkl", 'rb'))
+lgbm = pickle.load(open("models/w_Lgbm_model.pkl", 'rb'))
 
 
 st.title("Yield Predictor")
